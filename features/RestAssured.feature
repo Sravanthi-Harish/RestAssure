@@ -4,7 +4,7 @@ Feature: Record a new trade
   Scenario: Validate the post request
     Given Generate Token for following Client
     | clientName 	| clientEmail 							 |
-    | Postman     | valetin12356@example.com   |
+    | Postman     | valetin123@example.com   |
     When I Create Order for following tools
     | toolId 			| customerName 							 |
     | 1709    	  | John Doe                   | 
